@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/f0bec5fffb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="Home">
+  <div id="header">
+      <div class="container">     
+      <nav>
+          <img src="./images/logo.png" class="logo">
+          <ul id="sidemenu">
+              <li> <a href="#Home">Home</a></li>
+              <li> <a href="#About">About</a></li>
+              <li> <a href="#Services">Services</a></li>
+              <li> <a href="#Work">Work</a></li>
+              <li> <a href="#Contact">Contact</a></li>
+              <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>    
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+       
+        <div class="header-text">
+            <p>Pastor<span>/</span>Leadership and Life Coach </p>
+            <h1>Hi, I'm <br> <span class="auto-typed"> Ifeanyi Uwakwe</span></h1>   
+        </div>
+    </div>
+    <video src="./images/VID-20230521-WA0022.mp4" controls poster=""></video>
+</div>
+</section>
+<section id="About">
+    <div id="about">
+        <div class="container">
+        <h1 class="sub-title">>About me</span></h1>
+      
+        <div class="row">
+            <div class="about-con-1">
+                <img src="./images/plibery.jpg" alt="">
+            </div>
+            <div class="about-con-2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, <br>
+                 itaque? Quam, modi debitis quod delectus veniam eos, <br>
+                  excepturi similique iste voluptatibus,
+                 doloremque nobis quos! Deleniti et eos est. Laboriosam quia natus
+                 <br> quaerat sapiente aliquid impedit fuga ad nobis tenetur molestias.</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links active-link"  onclick="opentab('experience')">Experience</p>
+                <p class="tab-links active-link"  onclick="opentab('position')">position</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span> Fitness Couch</span><br>Instructor and fitness bork Author</li>
+                    <li><span> Basketball</span><br>Captain and Writer</li>
+                    <li><span> Heavy weight Gym</span><br>GTM Champion Medalist</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2019</span><br>Instructor and Coach and Hard Body  bourd director</li>
+                    <li><span>2020</span><br> Fitness Championship America Bassket ball director </li>
+                    <li><span>2022</span><br>Entrepreneur, Business Coach and Growth analyst</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="position">
+                <ul>
+                    <li><span> 2014 - Current</span><br>Ceo and Coach at Hard Body and also a fitness book writer</li>
+                    <li><span> 2016 - Current</span><br>Captain from MBA MIT New york and also a part of the national team instructor</li>
+                    <li><span> 2022 </span><br>State national Champion Medalist at heavy weight</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var typed = new Typed(".auto-typed",{
+       strings: ["About me"],
+       typedSpeed: 70,
+       backSpeed: 70,
+       loop: true
+       
+   });
+</script>
+</section>
+<section id="Services">
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">>My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-dumbbell"></i>
+                <h2>Fitness Instructor</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam id esse debitis omnis nostrum, voluptate in perferendis reprehenderit accusantium, exercitationem adipisci molestias sit tempore minus alias assumenda tempora, dolorem vitae quaerat culpa! Voluptatum, id officia?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-truck-fast"></i>
+                <h2>Coach
+                    Consultant</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste inventore exercitationem laborum hic quisquam vel eos mollitia adipisci optio distinctio ullam numquam sunt,  veritatis voluptatibus tempora. Aperiam adipisci totam enim odio aut necessitatibus hic eos.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Entrepreneur and writer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste inventore exercitationem laborum hic quisquam vel eos mollitia adipisci optio distinctio ullam numquam sunt, veritatis voluptatibus tempora. Aperiam adipisci totam enim odio aut necessitatibus hic eos.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+</section>
+<section id="Work">
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">>My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/FB_IMG_1673430043571.jpg" style="height: 28.3rem
+                ;" alt="" > 
+                <div class="layer">
+                    <h3>Coaching champions</h3>
+                    <p>We assist to raising your passion and ambision till the best part of you is seen. 
+                    </p>
+                    <a href="#"><i i class="fas fa-external-link-alt"></i>
+                    </i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/OIP.jpg"  style="height: 28.3rem
+                ;" alt=""> 
+                <div class="layer">
+                    <h3>Teaching and book writting</h3>
+                    <p>I do take a my time to write down my experiencies and knowledge to help grow you upto Excellence.</p>
+                    <a href="#"><i i class="fas fa-external-link-alt"></i>
+                    </i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/IMG-20210312-WA0019.jpg"  style="height: 28.3rem
+                ;" alt="">
+                <div class="layer">
+                    <h3>Coaching and Raising Godly Leaders</h3>
+                    <p>This is exactly made for building
+                        up both your spiritual and leadership structures with staminer and raising Godly home</p>
+                    <a href="#"><i i class="fas fa-external-link-alt"></i>
+                    </i></a>
+                </div>
+            </div>
+        </div>
+                    <a href="#"class="btn">See more</a>
+    </div>
+</div>
+</section>
+<section id="Contact">
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>contact me</h1>
+                <p><a href=""><i class="fa-solid fa-share-from-square"></i></a>con@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +234-0832105685</p>
+                <div class="social-icons">
+                    <a href="#https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#whatsApp"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#instagram"><i class="fa-brands fa-instagram"></i></a></a>
+                </div>
+                <a href="images/books.jpg" download="" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required> 
+                    <input type="email" name="Email" placeholder="Your Email" required> 
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submite</button>
+                </form>
+            </div>
+        </div> 
+    </div>
+    <div class="copyright">
+       <p> copyright @ Ifeanyi. Made with <i class="fa-solid fa-heart"></i> by Evot</p>
+    </div>
+</div>
+</section>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed(".auto-typed", {
+        strings: ["From Nigeria..."],
+        typedSpeed: 110,
+        backSpeed: 110,
+        loop: true
+        
+        
+    })
+   
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";       
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";       
+    }
+</script>
+<script>
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
